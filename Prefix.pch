@@ -1,0 +1,20 @@
+//
+//  Prefix.pch
+//  GFSWaterflowView(瀑布流)
+//
+//  Created by 管复生 on 16/1/11.
+//  Copyright © 2016年 GFS. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+
+// 颜色
+#define GFSColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define GFSColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 随机色
+#define GFSRandomColor GFSColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#endif /* Prefix_pch */

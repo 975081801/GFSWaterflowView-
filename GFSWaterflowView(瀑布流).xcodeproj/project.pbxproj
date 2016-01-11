@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		EE16B0D51C43554B0042C4DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16B0D41C43554B0042C4DD /* main.m */; };
 		EE16B0D81C43554B0042C4DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16B0D71C43554B0042C4DD /* AppDelegate.m */; };
-		EE16B0DB1C43554B0042C4DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16B0DA1C43554B0042C4DD /* ViewController.m */; };
 		EE16B0DE1C43554B0042C4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE16B0DC1C43554B0042C4DD /* Main.storyboard */; };
 		EE16B0E01C43554B0042C4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE16B0DF1C43554B0042C4DD /* Assets.xcassets */; };
 		EE16B0E31C43554B0042C4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE16B0E11C43554B0042C4DD /* LaunchScreen.storyboard */; };
 		EE16B0EE1C43554B0042C4DD /* GFSWaterflowView_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16B0ED1C43554B0042C4DD /* GFSWaterflowView_____Tests.m */; };
 		EE16B0F91C43554B0042C4DD /* GFSWaterflowView_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16B0F81C43554B0042C4DD /* GFSWaterflowView_____UITests.m */; };
+		EE16B10C1C4355A60042C4DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16B1081C4355A60042C4DD /* ViewController.m */; };
+		EE16B10D1C4355A60042C4DD /* GFSWaterflowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16B10B1C4355A60042C4DD /* GFSWaterflowViewCell.m */; };
+		EE16B1101C4357470042C4DD /* GFSWaterflowView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16B10F1C4357470042C4DD /* GFSWaterflowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		EE16B0D41C43554B0042C4DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE16B0D61C43554B0042C4DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE16B0D71C43554B0042C4DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE16B0D91C43554B0042C4DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE16B0DA1C43554B0042C4DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE16B0DD1C43554B0042C4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE16B0DF1C43554B0042C4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE16B0E21C43554B0042C4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		EE16B0F41C43554B0042C4DD /* GFSWaterflowView(瀑布流)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GFSWaterflowView(瀑布流)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE16B0F81C43554B0042C4DD /* GFSWaterflowView_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GFSWaterflowView_____UITests.m"; sourceTree = "<group>"; };
 		EE16B0FA1C43554B0042C4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE16B1071C4355A60042C4DD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE16B1081C4355A60042C4DD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE16B10A1C4355A60042C4DD /* GFSWaterflowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSWaterflowViewCell.h; sourceTree = "<group>"; };
+		EE16B10B1C4355A60042C4DD /* GFSWaterflowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSWaterflowViewCell.m; sourceTree = "<group>"; };
+		EE16B10E1C4357470042C4DD /* GFSWaterflowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSWaterflowView.h; sourceTree = "<group>"; };
+		EE16B10F1C4357470042C4DD /* GFSWaterflowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSWaterflowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,10 @@
 		EE16B0D21C43554B0042C4DD /* GFSWaterflowView(瀑布流) */ = {
 			isa = PBXGroup;
 			children = (
+				EE16B1061C4355A60042C4DD /* Demo */,
+				EE16B1091C4355A60042C4DD /* GFSWaterFlowView */,
 				EE16B0D61C43554B0042C4DD /* AppDelegate.h */,
 				EE16B0D71C43554B0042C4DD /* AppDelegate.m */,
-				EE16B0D91C43554B0042C4DD /* ViewController.h */,
-				EE16B0DA1C43554B0042C4DD /* ViewController.m */,
 				EE16B0DC1C43554B0042C4DD /* Main.storyboard */,
 				EE16B0DF1C43554B0042C4DD /* Assets.xcassets */,
 				EE16B0E11C43554B0042C4DD /* LaunchScreen.storyboard */,
@@ -138,6 +144,26 @@
 				EE16B0FA1C43554B0042C4DD /* Info.plist */,
 			);
 			path = "GFSWaterflowView(瀑布流)UITests";
+			sourceTree = "<group>";
+		};
+		EE16B1061C4355A60042C4DD /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EE16B1071C4355A60042C4DD /* ViewController.h */,
+				EE16B1081C4355A60042C4DD /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		EE16B1091C4355A60042C4DD /* GFSWaterFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				EE16B10E1C4357470042C4DD /* GFSWaterflowView.h */,
+				EE16B10F1C4357470042C4DD /* GFSWaterflowView.m */,
+				EE16B10A1C4355A60042C4DD /* GFSWaterflowViewCell.h */,
+				EE16B10B1C4355A60042C4DD /* GFSWaterflowViewCell.m */,
+			);
+			path = GFSWaterFlowView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE16B0DB1C43554B0042C4DD /* ViewController.m in Sources */,
+				EE16B10D1C4355A60042C4DD /* GFSWaterflowViewCell.m in Sources */,
 				EE16B0D81C43554B0042C4DD /* AppDelegate.m in Sources */,
+				EE16B10C1C4355A60042C4DD /* ViewController.m in Sources */,
+				EE16B1101C4357470042C4DD /* GFSWaterflowView.m in Sources */,
 				EE16B0D51C43554B0042C4DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +442,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Prefix.pch";
 				INFOPLIST_FILE = "GFSWaterflowView(瀑布流)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.GFSWaterflowView-----";
@@ -425,6 +455,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Prefix.pch";
 				INFOPLIST_FILE = "GFSWaterflowView(瀑布流)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.GFSWaterflowView-----";
